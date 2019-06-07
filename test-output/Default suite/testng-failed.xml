@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="unittesting.UnitTestClassBase">
+        <methods>
+          <include name="baseAfterSuite"/>
+          <include name="baseBeforeSuite"/>
+        </methods>
+      </class> <!-- unittesting.UnitTestClassBase -->
+      <class name="TestingProject.LeanFtTest">
+        <methods>
+          <include name="test"/>
+          <include name="baseAfterClass"/>
+          <include name="baseAfterMethod"/>
+        </methods>
+      </class> <!-- TestingProject.LeanFtTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

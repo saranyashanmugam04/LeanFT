@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="6946" started-at="2019-06-07T06:13:55Z" finished-at="2019-06-07T06:14:02Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="6946" started-at="2019-06-07T06:13:55Z" finished-at="2019-06-07T06:14:02Z">
+      <class name="TestingProject.LeanFtTest">
+        <test-method status="PASS" signature="baseBeforeSuite()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseBeforeSuite" is-config="true" duration-ms="2387" started-at="2019-06-07T11:43:53Z" finished-at="2019-06-07T11:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeSuite -->
+        <test-method status="PASS" signature="baseBeforeClass(org.testng.ITestContext)[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseBeforeClass" is-config="true" duration-ms="1242" started-at="2019-06-07T11:43:55Z" finished-at="2019-06-07T11:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ab013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-07T11:43:57Z" finished-at="2019-06-07T11:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="test" duration-ms="5687" started-at="2019-06-07T11:43:57Z" finished-at="2019-06-07T11:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="baseBeforeMethod([Ljava.lang.Object;, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseBeforeMethod" is-config="true" duration-ms="0" started-at="2019-06-07T11:43:57Z" finished-at="2019-06-07T11:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@14bee915]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ab013]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void TestingProject.LeanFtTest.test() throws com.hp.lft.sdk.GeneralLeanFtException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-07T11:43:57Z" finished-at="2019-06-07T11:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-07T11:44:02Z" finished-at="2019-06-07T11:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="baseAfterMethod(org.testng.ITestResult)[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseAfterMethod" is-config="true" duration-ms="1" started-at="2019-06-07T11:44:02Z" finished-at="2019-06-07T11:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=LeanFtTest.test()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseAfterMethod -->
+        <test-method status="PASS" signature="baseAfterClass(org.testng.ITestContext)[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseAfterClass" is-config="true" duration-ms="0" started-at="2019-06-07T11:44:02Z" finished-at="2019-06-07T11:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41ab013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseAfterClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-07T11:44:02Z" finished-at="2019-06-07T11:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="baseAfterSuite()[pri:0, instance:TestingProject.LeanFtTest@39aeed2f]" name="baseAfterSuite" is-config="true" duration-ms="2821" started-at="2019-06-07T11:44:02Z" finished-at="2019-06-07T11:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseAfterSuite -->
+      </class> <!-- TestingProject.LeanFtTest -->
+    </test> <!-- test -->
+  </suite> <!-- suite -->
+</testng-results>

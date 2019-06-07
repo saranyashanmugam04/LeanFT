@@ -1,0 +1,10 @@
+<suite name="suite">
+	<test name="test">
+		<classes>
+			<class name="TestingProject.LeanFtTest"></class>
+		
+		</classes>
+	
+	</test>
+
+</suite>
